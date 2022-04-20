@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Fire
   - Collector
+  - Cube
+  - Sphere
+  - DeliveryZone
   layers:
   - Default
   - TransparentFX
