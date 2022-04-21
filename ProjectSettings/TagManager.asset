@@ -9,6 +9,7 @@ TagManager:
   - Cube
   - Sphere
   - DeliveryZone
+  - Skeleton
   layers:
   - Default
   - TransparentFX
