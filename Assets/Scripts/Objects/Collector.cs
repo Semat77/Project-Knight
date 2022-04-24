@@ -26,12 +26,12 @@ public class Collector : MonoBehaviour
             theScore += 1;
         }
 
-        if(skeletonDestroyCounter == 4){
+        if(skeletonDestroyCounter == 2){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
             theScore = 0;
         }
 
-        if(other.tag == "Sphere"){ // award
+        if(other.tag == "Sphere"){ // award is sphere 
             Destroy(other.gameObject);
             hasSphere = true;
         }
