@@ -5,9 +5,8 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] Transform target;
+    [SerializeField] Transform player;
     NavMeshAgent navMeshAgent;
-
 
     void Start()
     {
@@ -17,6 +16,13 @@ public class EnemyAI : MonoBehaviour
     
     void Update()
     {
-        navMeshAgent.SetDestination(target.position);
+        if(Collector.hasSphere == true){
+        Vector3 dirToPlayer = transform.position - player.transform.position;
+        Vector3 newPos = transform.position + dirToPlayer;
+        navMeshAgent.SetDestination(newPos);
+        }
+        else{
+            navMeshAgent.SetDestination(player.position);
+        }
     }
 }

@@ -343,7 +343,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 754497561}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -1093,9 +1093,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 754497559}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dc228ba169dd8f4294dc9e061bc349c, type: 3}
+  m_Script: {fileID: 11500000, guid: e846167d58a1f674fb16378ccae61a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  returnToDiffrentScene: 1
 --- !u!1 &927030104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,7 +1880,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 754497561}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:

@@ -265,7 +265,6 @@ GameObject:
   - component: {fileID: 234020046038621560}
   - component: {fileID: 234020046046048938}
   - component: {fileID: 234020046021401113}
-  - component: {fileID: 234020046021401112}
   - component: {fileID: 234020046021401099}
   - component: {fileID: 234020046021401094}
   - component: {fileID: 234020046021401095}
@@ -330,20 +329,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &234020046021401112
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234020046038647064}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &234020046021401099
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -402,7 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dccb57fb52538704bb0833e45e14afcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyDelay: 0
+  scoreText: {fileID: 0}
 --- !u!1 &234020046038647066
 GameObject:
   m_ObjectHideFlags: 0
