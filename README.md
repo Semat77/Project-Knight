@@ -21,7 +21,4 @@ C#
 Contributing
 Contributions to Project Knight are currently not being accepted.
 
-Contact
-If you have any questions or feedback, feel free to contact us at s.matuszczyk1@gmail.com .
-
 Note: Project Knight is currently an archival project, and active development may not be ongoing.
